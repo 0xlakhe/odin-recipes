@@ -1,17 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Recipes</title>
-</head>
-<body>
-    <h1>Odin Recipes</h1>
+    <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+      }
+      h1 {
+        text-align: center;
+        background-color: aqua;
+      }
 
-    <ul>
+      li {
+        display: inline;
+        background-color: burlywood;
+        height: 100px;
+        width: 100px;
+        text-align: center;
+        padding: 34px;
+      }
+
+      .recipes {
+        margin-top: 50px;
+      }
+      a {
+        color: black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Odin Recipes</h1>
+    <div class="recipes">
+      <ul>
         <li><a href="recipes/momo.html">Momo</a></li>
         <li><a href="recipes/sukitiachar.html">Sukuti ko Achar</a></li>
         <li><a href="recipes/yomari.html">Yomari</a></li>
-    </ul>
-</body>
+      </ul>
+    </div>
+  </body>
 </html>

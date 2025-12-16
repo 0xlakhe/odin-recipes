@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+p {
+  width: 50%;
+  margin: auto;
+}
+
+h2,
+ol {
+  display: block;
+  margin-left: 25%;
+}
+/* momo */
+.list-first {
+  margin-left: 26%;
+}
+
+/* sukuti */
+.list-sukuti {
+  margin-left: 26%;
+}
+
+/* yomari */
+.un-yomari {
+  margin-left: 26%;
+}
